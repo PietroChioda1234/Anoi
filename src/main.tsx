@@ -44,13 +44,12 @@
 
 // ReactDOM.createRoot(document.getElementById("root")!).render(<MainComponent />);
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./tests/App.tsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const MainComponent = () => {
-  const urlParams = new URLSearchParams("http://localhost:5173");
   // const [n, setN] = useState(3); // Default value for n
   // const generateNumberArray = (max: any) => {
   //   return Array.from({ length: max }, (_, index) => index + 1);
