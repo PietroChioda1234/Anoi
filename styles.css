@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex: 1;
+    /* align-items: flex-start;
+    justify-content: flex-start; */
+    flex-direction: row;
+}
+#disks{
+    display: flex;
+    flex: 5;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ margin: 30px;
+}
+#submit{
+    margin: 10px;
+}
+#root{
+    display: flex;
+    flex: 7;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+  }
+  #ins{
+    margin-bottom: 20vh;
+
+  }

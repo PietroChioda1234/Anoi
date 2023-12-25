@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css"/>
+    <title>BEST ANOI'S TOWER website</title>
+  </head>
+  <body>
+  
+    <form action="index.html" method="get" id="disks">
+      <label id="ins">Use A,S,D to move through the piles<br><br> Use the arrows to move the last disk of the selected pile</label>
+      <label id="moves">MOVES: </label>
+      <input type="number" min="3" name="disks" placeholder="disks" value="3">
+      <button id="submit" type="submit" > submit</button>
+    </form>
+   
+    <div id="root" ></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
